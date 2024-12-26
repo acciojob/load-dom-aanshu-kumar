@@ -1,4 +1,4 @@
 //your JS code here. If required.
 document.addEventListener("DOMContentLoaded", (event) => {
-  document.getElementById("msg").innerHTML="DOM load success";
+  document.getElementsByTagName("BODY")[0].innerHTML="DOM load success";
 });
